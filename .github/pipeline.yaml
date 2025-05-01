@@ -1,0 +1,7 @@
+name: hello world
+on: [push] //Se activa cuando se haga un push
+jobs:
+  hello-world:
+    steps:
+      - run: echo "Hello world"
+      
