@@ -1,9 +1,10 @@
 name: hello world
-on: [push] //Se activa cuando se haga un push
+on: [push] 
 jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
+      - run: cd .. 
       - run: ls -la
       
       
